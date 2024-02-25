@@ -43,3 +43,64 @@ body {
   padding: 10px;
   font-family: "Roboto", arial;
 }
+
+.header-menu a:hover {
+  color: #2678a7;
+  transition: 0.3s;
+}
+
+/*profile part*/
+
+.profile {
+  display: flex;
+  color: #f9faf8;
+  background-color: #1f2937;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 80px 20px 80px;
+}
+
+.profile-text {
+  /* flex-basis: 400px; */
+  display: flex;
+  flex-direction: column;
+  /* margin-right: auto; */
+  text-align: left;
+  margin-right: 50px;
+}
+
+.profile-text p {
+  font-family: "Roboto", arial;
+  opacity: 0.7;
+}
+
+.profile-text h1 {
+  font-size: 48px;
+  font-weight: bold;
+  color: #f9faf8;
+  margin: 0;
+  font-family: "Roboto", arial;
+}
+
+.profile-text button {
+  /* align-items: center; */
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  text-align: center;
+  width: 110px;
+  border: none;
+  background: #3882f6;
+  padding: 10px;
+  border-radius: 8px;
+  color: #fff;
+  font-family: "Roboto", arial;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.profile-image img {
+  width: 500px;
+  height: 350px;
+  border-radius: 5%;
+}
