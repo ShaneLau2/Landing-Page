@@ -159,8 +159,52 @@ body {
 }
 
 .quote b {
+  font-size: 36px;
   padding-bottom: 20px;
   padding-right: 10px;
   font-family: "Roboto", arial;
+  color: #1f2937;
   text-align: right;
+}
+
+/* sign-up section */
+
+.sign-up {
+  background-color: #3882f6;
+  margin: 50px 200px;
+  padding: 10px 80px;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  border-color: none;
+}
+
+.sign-up .sign-up-text {
+  color: #093141;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: "Roboto", arial;
+  margin-right: 50px;
+  flex: 1;
+}
+
+.sign-up button {
+  margin-left: auto;
+  text-align: center;
+  background: #093141;
+  color: #fff;
+  font-family: "Roboto", arial;
+  flex: 1;
+  font-weight: bold;
+}
+
+/* footer section */
+
+.footer {
+  display: flex;
+  background-color: #15a83a;
+  padding: 20px 100px 20px 100px;
+  align-items: center;
+  justify-content: center;
+  color: #e5e7eb;
 }
